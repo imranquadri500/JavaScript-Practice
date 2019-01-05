@@ -22,3 +22,18 @@ car1.getCarDescription.call(car2, 200000, 2018, 'Red');
 
 car1.getCarDescription.apply(car3, [30000, 2019, 'White']);
 
+
+// Typeof Data Types
+
+// Type of Data Types
+
+console.log(typeof null);  //object
+console.log(typeof undefined); // undefined
+console.log(typeof {});    // object
+console.log(typeof []);   // object
+
+console.log(Array.isArray({})) //False
+console.log(Array.isArray([])); // True
+
+console.log([] instanceof Array);  // True
+console.log({} instanceof Array);  //False
