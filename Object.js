@@ -42,3 +42,18 @@ const imranCar = new Car('Red', 'Tesla', 2019);
 
 console.log(carlysCar.getColor());
 console.log(imranCar.getColor());
+
+
+// Function Constructor
+
+function User(firstName, lastName, age, gender) {
+ this.firstName = firstName;
+ this.lastName = lastName;
+ this.age = age;
+ this.gender = gender;
+};
+
+var user1 = new User('Imran', 'Quadri', 26, 'Male');
+User {firstName: "Imran", lastName: "Quadri", age: 26, gender: "Male"}
+var user200 = new User('Bushra', 'Quadri', 23, 'Female');
+User {firstName: "Bushra", lastName: "Quadri", age: 23, gender: "Female"}
