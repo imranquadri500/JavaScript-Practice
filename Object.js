@@ -57,3 +57,23 @@ var user1 = new User('Imran', 'Quadri', 26, 'Male');
 User {firstName: "Imran", lastName: "Quadri", age: 26, gender: "Male"}
 var user200 = new User('Bushra', 'Quadri', 23, 'Female');
 User {firstName: "Bushra", lastName: "Quadri", age: 23, gender: "Female"}
+
+
+// Two Object Comparison
+
+// Two Object Comparison. Two objects are never equal to each other. And this is because in javascript we pass objects by reference instead of by value.
+
+const user1 = {
+  name: 'Imran',
+  age: 24,
+};
+
+const user2= {
+  name: 'Imran',
+  age: 24,
+};
+
+//const user2 = user1;
+
+console.log(user1 == user2);
+console.log(JSON.stringify(user1) === JSON.stringify(user2));
