@@ -77,3 +77,32 @@ const user2= {
 
 console.log(user1 == user2);
 console.log(JSON.stringify(user1) === JSON.stringify(user2));
+
+
+
+//
+// Objects and Strings
+
+var string1 = 'Tampa';
+var string2 = string1;
+
+string1 = 'Venice';
+
+console.log(string2);
+
+///////////////////////////////
+
+var person1 = {
+  name: 'Alex',
+  age:30
+};
+
+var person2 = person1;
+person2.name = 'Kyle';
+
+console.log(person1);
+
+//Output
+
+// Tampa
+// { name: 'Kyle', age: 30 }
