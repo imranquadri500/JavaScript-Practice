@@ -23,7 +23,7 @@ car1.getCarDescription.call(car2, 200000, 2018, 'Red');
 car1.getCarDescription.apply(car3, [30000, 2019, 'White']);
 
 
-// Typeof Data Types
+
 
 // Type of Data Types
 
