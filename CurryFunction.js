@@ -12,7 +12,7 @@ function getProduct(num1) {
  
 getProduct(10)(20);
  
- 
+ //Output: 200;
  
  
 // tab 2
