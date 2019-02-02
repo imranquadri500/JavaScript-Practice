@@ -1,4 +1,4 @@
-// Apply() Method Example
+// Apply() Method  Example
 
 const car1={
   brand: 'Porsche',
@@ -25,7 +25,7 @@ car1.getCarDescription.apply(car3, [30000, 2019, 'White']);
 
 
 
-// Type of Data Types
+// Type of Data Types Example
 
 console.log(typeof null);  //object
 console.log(typeof undefined); // undefined
