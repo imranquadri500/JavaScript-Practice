@@ -32,8 +32,5 @@ console.log(typeof undefined); // undefined
 console.log(typeof {});    // object
 console.log(typeof []);   // object
 
-console.log(Array.isArray({})) //False
-console.log(Array.isArray([])); // True
-
 console.log([] instanceof Array);  // True
 console.log({} instanceof Array);  //False
